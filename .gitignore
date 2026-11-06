@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# A personal alias file, in case one is ever copied next to the plugin
+quick menu toolbar aliases.txt
+# Screenshots produced by tests/
+tests/*.png

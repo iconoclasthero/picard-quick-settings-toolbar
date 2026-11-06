@@ -1,0 +1,23 @@
+# Short labels for the Quick Settings toolbar.
+#
+# THIS IS THE EXAMPLE FILE. On first run the plugin copies it to
+#     <Picard config folder>/quick menu toolbar aliases.txt
+# (on Linux: ~/.config/MusicBrainz/Picard/). Edit that copy, not this one:
+# it survives plugin updates and is never overwritten.
+#
+# Format:   option_name = Short label
+#
+# The short label is shown on the toolbar; the full option title appears as the
+# hover tooltip. Settings with no alias use their full title.
+# Toolbar order follows the order of lines; settings not listed come after, A-Z.
+# Lines starting with # are ignored. Restart Picard (or disable and re-enable
+# the plugin) after editing.
+#
+# When you add a setting to the quick menu, a commented line for it is appended
+# to the bottom of your copy: remove the leading "# " and edit the label.
+
+enable_tag_saving = Save tags
+rename_files = Rename
+move_files = Move
+save_images_to_tags = Images in tags
+save_images_to_files = Images saved separately
